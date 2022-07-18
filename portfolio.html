@@ -18,6 +18,7 @@
   <body>
     <!-- header -->
     <header class="page-header">
+      <div class="container page-header-container">
       <nav class="page-nav">
         <a class="logo-link link" href="index.html"> <span class="accent-logo">Web</span>Studio </a>
         <ul class="menu list">
@@ -40,18 +41,20 @@
           <a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
     </header>
     <main>
       <!-- hero -->
-      <section>
+      <section class="section">
+        <div class="container">
         <!-- Приховати заголок! -->
         <h1 class="visually-hidden">Наши работы</h1>
         <ul class="filter list">
-          <li><button class="filter-button" type="button">Все</button></li>
-          <li><button class="filter-button" type="button">Веб-сайты</button></li>
-          <li><button class="filter-button" type="button">Приложения</button></li>
-          <li><button class="filter-button" type="button">Дизайн</button></li>
-          <li><button class="filter-button" type="button">Маркетинг</button></li>
+          <li class="filter-item"><button class="filter-button" type="button">Все</button></li>
+          <li class="filter-item"><button class="filter-button" type="button">Веб-сайты</button></li>
+          <li class="filter-item"><button class="filter-button" type="button">Приложения</button></li>
+          <li class="filter-item"><button class="filter-button" type="button">Дизайн</button></li>
+          <li class="filter-item"><button class="filter-button" type="button">Маркетинг</button></li>
         </ul>
         <ul class="gallery list">
           <li class="gallery-item">
@@ -59,103 +62,109 @@
               src="./images/portfolio/tehnokrjak.jpg"
               width="370"
               alt="пример страницы сайта на екране ноутбука"
-            />
+            /><div class="card-wrapper">
             <h2 class="card-title">Технокряк</h2>
             <p class="card-description">Веб-сайт</p>
+            </div>
           </li>
           <li class="gallery-item">
             <img
               src="./images/portfolio/poster_neworlean.jpg"
               width="370"
               alt="два баскетболиста в борьбе за мяч"
-            />
+            /><div class="card-wrapper">
             <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
             <p class="card-description">Дизайн</p>
+            </div>
           </li>
           <li class="gallery-item">
             <img
               src="./images/portfolio/restaurant.jpg"
               width="370"
               alt="эмблема ресторана с рыбой и названием"
-            />
+            /><div class="card-wrapper">
             <h2 class="card-title">Ресторан Seafood</h2>
             <p class="card-description">Приложение</p>
+            </div>
           </li>
           <li class="gallery-item">
             <img
               src="./images/portfolio/headphones.jpg"
               width="370"
               alt="большие черные наушники"
-            />
+            /><div class="card-wrapper">
             <h2 class="card-title">Проект Prime</h2>
             <p class="card-description">Маркетинг</p>
+            </div>
           </li>
           <li class="gallery-item">
             <img src="./images/portfolio/boxes.jpg" width="370" alt="белая и бежевая коробки" />
+          <div class="card-wrapper">
             <h2 class="card-title">Проект Boxes</h2>
             <p class="card-description">Приложение</p>
+            </div>
           </li>
           <li class="gallery-item">
             <img
               src="./images/portfolio/site_inspiration.jpg"
               width="370"
               alt="чорная карта мира на екране монитора"
-            />
+            /><div class="card-wrapper">
             <h2 class="card-title">Inspiration has no Borders</h2>
             <p class="card-description">Веб-сайт</p>
+            </div>
           </li>
           <li class="gallery-item">
             <img
               src="./images/portfolio/limited_edition.jpg"
               width="370"
               alt="пример дизайна разворот журнала с женщиной с феном "
-            />
+            /><div class="card-wrapper">
             <h2 class="card-title">Издание Limited Edition</h2>
             <p class="card-description">Дизайн</p>
+            </div>
           </li>
           <li class="gallery-item">
             <img src="./images/portfolio/proect_lab.jpg" width="370" alt="белая бирка с надписью" />
+            <div class="card-wrapper">
             <h2 class="card-title">Проект LAB</h2>
             <p class="card-description">Маркетинг</p>
+            </div>
           </li>
           <li class="gallery-item">
             <img
               src="./images/portfolio/growing.jpg"
               width="370"
               alt="человек пользуется приложением на ноутбуке"
-            />
+            /> <div class="card-wrapper">
             <h2 class="card-title">Growing Business</h2>
             <p class="card-description">Приложение</p>
+            </div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <!-- footer -->
     <footer class="footer">
-      <a class="logo-link logo-footer link" href=""><span class="accent-logo">Web</span>Studio </a>
-      <address class="address">
-        <ul class="contacts list">
-          <li class="contacts-item">
-            <a
-              class="contact-link color-postlink link"
-              href="https://goo.gl/maps/E31LjMS4C6WuwfjZA"
-              target="_blank"
-              rel="noopener nofollow noreferrer"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li class="contacts-item">
-            <a class="contact-link color-contactlink link" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li class="contacts-item">
-            <a class="contact-link color-contactlink link" href="tel:+380991111111"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a class="logo-link-footer link" href="./index.html"><span class="accent-logo">Web</span>Studio
+        </a>
+        <address class="address">
+          <ul class="contact list">
+            <li class="contact-item">
+              <a class="contact-link-footer color-postlink link" href="https://goo.gl/maps/E31LjMS4C6WuwfjZA" target="_blank"
+                rel="noopener nofollow noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
+            </li>
+            <li class="contact-item">
+              <a class="contact-link-footer color-contactlink link" href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li class="contact-item">
+              <a class="contact-link-footer color-contactlink link" href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
