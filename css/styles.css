@@ -281,13 +281,10 @@ body {
 
   margin-bottom: 20px;
 }
-.contact {
-  display: flex;
-  flex-direction: column;
-}
+
 .contact-item:not(:last-child) {
   margin-bottom: 9px;
-}
+} 
 
 .logo-link-footer:hover,
 .logo-link-footer:focus {
@@ -301,9 +298,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-address);
 
-  margin-bottom: not(: last-child);
 }
-
 .color-postlink {
   color: var(--color-logo-footer);
 }
