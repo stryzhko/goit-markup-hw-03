@@ -144,10 +144,7 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.hero-container {
-  padding-left: 280px;
-  padding-right: 280px;
-}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -157,8 +154,12 @@ body {
   text-transform: uppercase;
   color: var(--color-hero-title);
 
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
 }
+
 .button {
   font-family: inherit;
   font-weight: 700;
@@ -211,6 +212,9 @@ body {
   color: var(--secondary-text-color);
 }
 /*  our work  */
+.work-container{
+  padding-top: 0;
+}
 .section-title {
   font-size: 36px;
   line-height: 1.17;
